@@ -1,0 +1,7 @@
+{
+  "name": "SentinelAI Mask and Distancing Monitor",
+  "description": "A computer vision compliance monitoring dashboard for face mask usage and social distancing analysis using Google Gemini API.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
