@@ -1,20 +1,29 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# 🛡️ SentinelAI: Face Mask & Social Distance Monitoring System
 
-# Run and deploy your AI Studio app
+An automated computer vision and deep learning-based compliance monitoring dashboard designed to track public health safety protocols (face mask usage and social distancing) in real time.
 
-This contains everything you need to run your app locally.
+---
 
-View your app in AI Studio: https://ai.studio/apps/temp/2
+## 🚀 Project Overview
+As public spaces require continuous monitoring of health and safety standards, manual CCTV surveillance often suffers from human fatigue and blind spots. **SentinelAI** leverages computer vision and deep learning frameworks to process video feeds, detect face masks, measure interpersonal distances, and trigger real-time alerts.
 
-## Run Locally
+---
 
-**Prerequisites:**  Node.js
+## 🛠️ Tech Stack & Libraries
+* **Frontend:** React (v18), TypeScript, Tailwind CSS, Lucide React, Recharts
+* **AI & Computer Vision:** Python, OpenCV, Deep Learning (CNNs), Haar Cascades / MTCNN
+* **Build Tool:** Vite
 
+---
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+## ✨ Key Features
+1. **Real-Time Face Mask Detection:** Classifies individuals into "Mask" and "No Mask" categories using a Convolutional Neural Network (CNN) pipeline.
+2. **Social Distance Measurement:** Calculates Euclidean distances between bounding box centroids using perspective geometry and camera calibration matrices to flag proximity violations.
+3. **Interactive Dashboard:** Provides executive summaries, live data feeds, compliance trends, and historical logs.
+4. **Automated Alerting System:** Generates instant visual and system logs when safety thresholds are breached.
+
+---
+
+## 👤 Author
+* **Saikiran Achari Vadla** 
+* [LinkedIn](https://linkedin.com) | [GitHub](https://github.com/Saikiran-005)
